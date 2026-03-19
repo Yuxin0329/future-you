@@ -1,1 +1,8 @@
 # Git ignore (empty for initial commit)
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
